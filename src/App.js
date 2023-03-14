@@ -28,11 +28,7 @@ const App = () => {
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
-  return (
-    <div className="App">
-      <Directory categories={categories} />
-    </div>
-  );
+  return <Directory categories={categories} />;
 };
 
 export default App;
